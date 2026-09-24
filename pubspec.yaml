@@ -1,0 +1,21 @@
+name: om_meditation
+description: 개인용 명상 앱 옴 v1.0
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.3.2
+  flutter_tts: ^4.0.2
+  wakelock_plus: ^1.2.8
+  audioplayers: ^6.1.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/
+    - assets/scripts/
